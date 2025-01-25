@@ -13,13 +13,13 @@ Robot bob=new Robot();
 		// write the code to draw a triangle.
 		
 		//drawTriangle(100); 
-
+		
 		// Run the program. Check that your triangle is the same as the first picture in the recipe.
 		// Remove the drawTriangle(100) from the program before you proceed.
 		
 		
 		// Make the robot go as fast as possible
-		bob.setSpeed(1000);
+		bob.setSpeed(100000);
 		// Make a variable to hold the length of the triangle and set it to 50
 		int size = 50;
 		// Make another variable to count how many triangles have been drawn and set it to 0

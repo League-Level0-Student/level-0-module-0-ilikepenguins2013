@@ -86,14 +86,14 @@ public class DragonFight {
 
 	static void playerLost() {
 		// 11. Tell the player that they have been defeated by the dragon and have no treasure
-		JOption
+		JOptionPane.showMessageDialog(null, " you have been defeated by the dragon and have no treasure");
 
 		System.exit(0);   //This code ends the program
 	}
 
 	static void dragonLost() {
 		// 12. Tell the user that the dragon has been defeated and they get a ton of gold!
-
+		JOptionPane.showMessageDialog(null, "the dragon has been defeated and you get a ton of gold!");
 		System.exit(0);   //This code ends the program
 	}
 
